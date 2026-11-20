@@ -1,0 +1,70 @@
+GS - PAI | Entregável 6 — Chat Log
+
+1. Ferramentas de inteligência artificial utilizadas
+
+Durante o desenvolvimento do projeto Reciclaê, foram utilizadas duas ferramentas de inteligência artificial como apoio às atividades de planejamento, desenvolvimento, revisão 
+e documentação.
+
+- ChatGPT: utilizado para auxiliar na geração de dados simulados e na organização da base JSON.
+- Claude: utilizado como apoio à engenharia de prompt, à definição dos testes, ao desenvolvimento e à correção de código e à revisão de textos.
+
+2. Utilização do ChatGPT
+
+O ChatGPT foi utilizado nas seguintes atividades:
+
+2.1 Geração dos dados simulados
+Auxiliou na criação dos dez pontos de coleta fictícios do projeto, incluindo nomes, tipos, endereços, bairros, materiais aceitos, horários, acessibilidade e status de 
+funcionamento.
+Também foi utilizado para gerar observações fictícias de cidadãos relacionadas a cada ponto de coleta.
+
+2.2 Organização da base JSON
+A estrutura e o modelo inicial do arquivo JSON já estavam definidos. O ChatGPT auxiliou no preenchimento dessa estrutura com os dados simulados anteriormente elaborados, 
+mantendo a organização dos campos e dos registros.
+
+3. Utilização do Claude
+
+O Claude foi utilizado como ferramenta de apoio nas seguintes atividades:
+
+3.1 Engenharia de prompt
+Auxiliou na revisão e no aprimoramento do System Prompt, contribuindo para a organização das instruções, definição do comportamento esperado do assistente e identificação de 
+regras necessárias para suas respostas.
+A versão final do prompt foi analisada e ajustada para o projeto, que definiu e manteve as regras de funcionamento de acordo com os objetivos do projeto.
+
+3.2 Definição dos testes
+Foi utilizado como apoio na elaboração das cinco perguntas de teste destinadas à avaliação comparativa entre as versões V1 e V2 do System Prompt.
+
+3.3 Adequação do System Prompt ao código
+Auxiliou na retirada da formatação Markdown do texto do System Prompt e na adaptação de seu conteúdo para utilização como uma string no código Python do notebook.
+
+3.4 Revisão textual
+O Claude foi utilizado para revisar e aprimorar a redação da conclusão do projeto, buscando maior clareza, objetividade e adequação aos resultados obtidos.
+
+4. Decisões e validações realizadas pelo grupo
+
+As ferramentas de IA foram utilizadas como apoio, sem substituir as decisões técnicas.
+
+As integrantes ficaram responsáveis por:
+
+- Definir o objetivo, o escopo e as funcionalidades do Reciclaê.
+- Estabelecer a estrutura da base de dados e revisar os registros simulados.
+- Analisar e aprovar as regras do System Prompt final.
+- Implementar e executar o código no Google Colab.
+- Analisar os erros e verificar o funcionamento das correções.
+- Executar os testes das versões V1 e V2 do System Prompt.
+- Avaliar manualmente as respostas do assistente e atribuir as notas da matriz comparativa.
+- Interpretar os resultados e elaborar as conclusões do projeto.
+
+5. Considerações finais
+
+O uso das ferramentas de inteligência artificial contribuiu para agilizar atividades de desenvolvimento, organização e revisão. Entretanto, as respostas e sugestões fornecidas 
+foram analisadas pelos integrantes, que permaneceram responsáveis pelas decisões técnicas, pela implementação, pelos testes e pela avaliação dos resultados.
+
+6. Links das Conversas com as Ferramentas de IA
+
+ChatGPT:
+https://chatgpt.com/share/6afe15a4-87d8-83e9-9a78-e48676588c92
+https://chatgpt.com/share/6aff954f-153c-83e9-a80f-61f67da0919f
+
+Claude:
+https://claude.ai/share/3c53b6ec-4839-4699-b6f8-df39e018dc63
+https://claude.ai/share/72ce26ac-0d47-40ea-bf35-6f8cc54ed08c
