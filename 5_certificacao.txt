@@ -1,0 +1,52 @@
+GS - PAI | Entregável 5 - Certificação
+
+1. Integrantes:
+
+Helaine Gonçalves Mota - RM576838 - 1CCPB
+Mariana Bello Auada - RM 575333 - 1CCPB 
+
+2. Projeto
+
+Nome: Reciclaê
+Frente B - Descarte e Sustentabilidade
+
+    O Reciclaê é um assistente virtual desenvolvido com inteligência artificial para facilitar a consulta de pontos de coleta seletiva na cidade de São Paulo (SP). O projeto utiliza uma base de dados simulada e um 
+modelo de linguagem para responder a dúvidas sobre localização, materiais aceitos, horários, acessibilidade e situação dos pontos cadastrados, incentivando o descarte correto de resíduos e práticas mais sustentáveis.
+
+3. Links
+
+Drive GS - Prompt and Artificial Intelligence: https://drive.google.com/drive/folders/1AO_cdnB-DMLz1AMARlgZ5bl2LGo2qQ9d?usp=sharing
+GitHub: https://github.com/helainemt/GS2026_2_PAI_CitizenTech.git
+
+Nos links disponibilizados estão organizados os arquivos referentes ao desenvolvimento e à documentação do projeto:
+
+- 1_Notebook_GS2026_2.ipynb - notebook com código, processamento de dados, integração com o modelo de linguagens e testes
+- 2_dados_servico.json - base de dados simulada com 10 pontos de coleta seletiva, também disponibilizada dentro do notebook
+- 3_prompts_kit.md - documentação das versões dos prompts, exemplos e histórico de desenvolvimento
+- 4_README.md - apresentação do projeto, decisões técnicnas, evidências e instruções de execução
+- 5_certificacao.txt - documento de identificação, referência de execução e histórico de desenvolvimento
+- 6_Chat_Log.txt - registro das interações e da utilização de inteligência artificial durante o desenvolvimento
+
+4. Referências de Execução
+
+    O projeto foi desenvolvido em Python e executado no Google Colab, utilizando a integração com a API do provedor Groq e o modelo openai/gpt-oss-20b para o processamento das solicitações e a geração de respostas.
+    Inicialmente, a proposta previa a utilização do Ollama, conforme solicitado nas orientações originais da atividade. Entretanto, durante o desenvolvimento, a opção gratuita deixou de estar disponível para o modelo 
+pretendido. Por esse motivo, foram realizadas pesquisas e comparações entre as alternativas disponibilizadas pelo professor, resultando na escolha do Groq, considerando sua integração com Python e sua utilização no 
+ambiente do Google Colab.
+    Para executar o notebook, é necessário disponibilizar a chave de acesso GROQ_API_KEY na área de Secrets do Google Colab, permitindo a autenticação na API sem expor a credencial diretamente no código. Também é 
+necessário garantir que o arquivo JSON da base de dados esteja disponível no ambiente e no caminho esperado pelo notebook.
+    Após essas configurações, o usuário deve abrir o notebook no Google Colab e executar as células na ordem apresentada, de cima para baixo, utilizando a opção Ambiente de execução → Executar tudo. Dessa forma, 
+serão realizadas as etapas de estruturação e processamento dos dados, enriquecimento com o modelo de linguagem, aplicação das instruções do assistente e execução dos testes de validação.
+    A execução requer conexão com a internet e depende da disponibilidade da API Groq, estando sujeita aos limites de utilização estabelecidos pelo provedor.
+
+5. Resultados Obtidos
+
+    O projeto resultou na criação de uma base de dados simulada com 10 pontos de coleta seletiva em São Paulo, estruturada em formato JSON. Os registros contêm informações sobre localização, materiais aceitos, 
+horários, acessibilidade e situação dos pontos.
+    Foi utilizado o modelo openai/gpt-oss-20b, por meio da Groq, para enriquecer os registros a partir de observações fictícias dos cidadãos e desenvolver o assistente virtual Reciclaê, capaz de interpretar 
+perguntas e gerar respostas com base nos dados fornecidos.
+    Para aprimorar o comportamento do assistente, foram desenvolvidas duas versões do System Prompt (V1 e V2). A segunda versão incorporou regras mais detalhadas para melhorar a precisão das respostas, tratar 
+perguntas ambíguas, lidar com informações ausentes e resistir a tentativas de manipulação das instruções.
+    A validação foi realizada com cinco perguntas, executadas duas vezes em cada versão, utilizando uma escala de 0 a 2 pontos. Os resultados foram 7/10 para a V1 e 10/10 para a V2, demonstrando uma melhoria no 
+desempenho da versão enriquecida nos testes realizados. Como limitações, o projeto utiliza dados simulados e não realiza consultas em tempo real, oferecendo possibilidades de evolução por meio da integração com 
+bases oficiais e atualização automática das informações.
