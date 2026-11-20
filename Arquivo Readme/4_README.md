@@ -18,37 +18,37 @@ Os prints abaixo documentam as principais etapas de desenvolvimento do projeto.
 
 ### 2.1 Coleta e estruturação de dados
 
-![alt text](image-1.png)
+![alt text](img1_coleta_de_dados1.png)
 **Imagem 1 -** Configuração da LLM
 
 <br>
 
-![alt text](image-8.png)
+![alt text](img2_coleta_de_dados2.png)
 **Imagem 2 -** Criação da lista de registos, validação dos critérios da seção 5.1 e gravação dos registros no arquivo JSON
 
 ### 2.2 Enriquecimento com LLM
 
-![alt text](image-3.png)
+![alt text](img3_llm1.png)
 **Imagem 3 -** Chamada do LLM com parâmetros definidos
 
 <br>
 
-![alt text](image-4.png)
+![alt text](img4_llm2.png)
 **Imagem 4 -** Classificação da urgência e reescrita da `observacao_cidadao`
 
 ### 2.3 Validação e Governança
 
-![alt text](image-5.png)
+![alt text](img5_validacao1.png)
 **Imagem 5 -** Validação das classificações de urgência
 
 <br>
 
-![alt text](image-6.png)
+![alt text](img6_validacao2.png)
 **Imagem 6 -** Validação dos status
 
 ### 2.4 Testes
 
-![alt text](image.png)
+![alt text](img7_test1.png)
 **Imagem 7 -** Resposta Teste System Prompt v1 - Chamada 1
 
 **Resposta gerada:**
@@ -119,7 +119,7 @@ Total de respostas armazenadas: 5
 
 <br>
 
-![alt text](image-2.png)
+![alt text](img8_test2.png)
 **Imagem 8 -** Resposta Teste System Prompt v1 - Chamada 2
 
 **Resposta gerada:**
@@ -186,7 +186,7 @@ Total de respostas armazenadas: 5
 
 <br>
 
-![alt text](image-9.png)
+![alt text](img9_test3.png)
 **Imagem 9 -** Resposta Teste System Prompt v2 - Chamada 1
 
 **Resposta gerada:**
@@ -255,7 +255,7 @@ Total de respostas armazenadas: 5
 
 <br>
 
-![alt text](image-10.png)
+![alt text](img10_test4.png)
 **Imagem 10 -** Resposta Teste System Prompt v2 - Chamada 2
 
 **Resposta gerada:**
