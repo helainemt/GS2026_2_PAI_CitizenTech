@@ -1,0 +1,182 @@
+[
+    {
+        "id": "DS-001",
+        "nome": "EcoCentro República",
+        "tipo": "ecoponto",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro",
+            "Metal"
+        ],
+        "endereco": "Rua Modelo Central, 125",
+        "status": "ativo",
+        "status_motivo": "",
+        "acessivel": true,
+        "horario": "Segunda a sábado, das 8h às 17h",
+        "bairro": "República",
+        "observacao_cidadao": "Passei no ecoponto durante a manhã para deixar algumas caixas de papelão e fui bem atendido. Os espaços estavam organizados e consegui fazer o descarte sem nenhuma dificuldade."
+    },
+    {
+        "id": "DS-002",
+        "nome": "Coop Recicla Sé",
+        "tipo": "cooperativa",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Metal",
+            "Eletrônicos"
+        ],
+        "endereco": "Rua das Palmeiras Urbanas, 240",
+        "status": "lotado",
+        "status_motivo": "Recipientes de armazenamento cheios, impossibilitando temporariamente o recebimento de novos materiais.",
+        "acessivel": true,
+        "horario": "Segunda a sexta, das 8h às 16h",
+        "bairro": "Sé",
+        "observacao_cidadao": "Eu tinha separado alguns aparelhos eletrônicos para entregar, mas encontrei bastante material acumulado na cooperativa. Os responsáveis avisaram que não estavam conseguindo receber novos descartes porque o espaço já estava cheio."
+    },
+    {
+        "id": "DS-003",
+        "nome": "Ecoponto Verde Santana",
+        "tipo": "ecoponto",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro",
+            "Metal",
+            "Eletrônicos"
+        ],
+        "endereco": "Rua Projetada do Horto, 310",
+        "status": "ativo",
+        "status_motivo": "",
+        "acessivel": true,
+        "horario": "Segunda a sábado, das 8h às 17h",
+        "bairro": "Santana",
+        "observacao_cidadao": "Levei vários materiais recicláveis que estavam guardados em casa e encontrei o local funcionando normalmente. Os recipientes estavam disponíveis e foi bem tranquilo separar cada tipo de material."
+    },
+    {
+        "id": "DS-004",
+        "nome": "Coleta Norte Sustentável",
+        "tipo": "ponto de coleta seletiva",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro"
+        ],
+        "endereco": "Avenida Modelo Norte, 580",
+        "status": "inativo",
+        "status_motivo": "Ponto sem funcionamento e sem atendimento ao público, temporariamente indisponível para recebimento de materiais.",
+        "acessivel": false,
+        "horario": "Sem atendimento no momento",
+        "bairro": "Vila Maria",
+        "observacao_cidadao": "Fui até o endereço para deixar algumas embalagens, mas encontrei o ponto fechado e sem nenhum funcionário por perto. Não havia indicação de atendimento ou previsão de retorno das atividades."
+    },
+    {
+        "id": "DS-005",
+        "nome": "Ecoponto Sul Limpo",
+        "tipo": "ecoponto",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro",
+            "Metal"
+        ],
+        "endereco": "Rua Caminho Sustentável, 145",
+        "status": "em manutenção",
+        "status_motivo": "Estrutura passando por reparos, com algumas áreas isoladas e recebimento de materiais temporariamente suspenso.",
+        "acessivel": false,
+        "horario": "Segunda a sábado, das 8h às 17h (temporariamente suspenso)",
+        "bairro": "Santo Amaro",
+        "observacao_cidadao": "Quando cheguei, percebi que estavam realizando alguns reparos na estrutura e havia áreas isoladas para a manutenção. Por conta dos serviços, não consegui acessar os espaços destinados ao descarte."
+    },
+    {
+        "id": "DS-006",
+        "nome": "Cooperativa ReNova Sul",
+        "tipo": "cooperativa",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Metal",
+            "Eletrônicos"
+        ],
+        "endereco": "Rua Reciclagem Paulista, 420",
+        "status": "ativo",
+        "status_motivo": "",
+        "acessivel": true,
+        "horario": "Segunda a sexta, das 8h às 17h",
+        "bairro": "Jabaquara",
+        "observacao_cidadao": "Entreguei garrafas plásticas e algumas latinhas que tinha separado durante a semana. A cooperativa estava recebendo os materiais normalmente e o atendimento foi bastante tranquilo."
+    },
+    {
+        "id": "DS-007",
+        "nome": "Ecoponto Leste Circular",
+        "tipo": "ecoponto",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro",
+            "Metal",
+            "Eletrônicos"
+        ],
+        "endereco": "Rua Projetada das Acácias, 215",
+        "status": "lotado",
+        "status_motivo": "Capacidade de armazenamento esgotada devido ao acúmulo de materiais, impedindo novos descartes temporariamente.",
+        "acessivel": true,
+        "horario": "Segunda a sábado, das 8h às 17h",
+        "bairro": "Itaquera",
+        "observacao_cidadao": "Tentei deixar algumas embalagens e objetos recicláveis, mas os recipientes estavam praticamente transbordando de tanto material acumulado. Acabei precisando levar tudo de volta porque não havia espaço para receber mais resíduos."
+    },
+    {
+        "id": "DS-008",
+        "nome": "Ponto Verde Tatuapé",
+        "tipo": "ponto de coleta seletiva",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro"
+        ],
+        "endereco": "Avenida Circular Leste, 670",
+        "status": "ativo",
+        "status_motivo": "",
+        "acessivel": true,
+        "horario": "Todos os dias, das 7h às 19h",
+        "bairro": "Tatuapé",
+        "observacao_cidadao": "Encontrei os coletores em boas condições e consegui descartar papel e garrafas de vidro sem problemas. É bom ter um ponto assim disponível no bairro para facilitar a separação dos recicláveis."
+    },
+    {
+        "id": "DS-009",
+        "nome": "Coop Oeste Recicla",
+        "tipo": "cooperativa",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Vidro",
+            "Metal",
+            "Eletrônicos"
+        ],
+        "endereco": "Rua do Reaproveitamento, 190",
+        "status": "interditado",
+        "status_motivo": "Acesso ao estabelecimento temporariamente proibido devido à interdição do local.",
+        "acessivel": false,
+        "horario": "Sem atendimento durante o período de interdição",
+        "bairro": "Lapa",
+        "observacao_cidadao": "Ao chegar à cooperativa, encontrei um comunicado informando que o local estava interditado e que a entrada não estava autorizada. Não consegui acessar a área de descarte e precisei procurar outra alternativa."
+    },
+    {
+        "id": "DS-010",
+        "nome": "Coleta Seletiva Butantã",
+        "tipo": "ponto de coleta seletiva",
+        "materiais_aceitos": [
+            "Papel",
+            "Plástico",
+            "Metal"
+        ],
+        "endereco": "Rua Modelo do Butantã, 355",
+        "status": "inativo",
+        "status_motivo": "Ponto sem operação e sem atendimento ao público, não estando disponível para receber materiais recicláveis.",
+        "acessivel": false,
+        "horario": "Sem atendimento no momento",
+        "bairro": "Butantã",
+        "observacao_cidadao": "Já tinha passado por esse endereço anteriormente, mas desta vez encontrei o ponto sem funcionamento e não havia ninguém para orientar os moradores. Parece que o atendimento foi encerrado e não consegui realizar meu descarte."
+    }
+]
